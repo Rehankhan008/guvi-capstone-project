@@ -1,0 +1,16 @@
+# Exclude development-specific files and directories
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Exclude version control files
+.git
+
+# Exclude build and runtime configuration files
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
