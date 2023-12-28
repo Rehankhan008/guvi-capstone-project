@@ -7,5 +7,5 @@ IMAGE_TAG="latest"
 
 
 # Build the Docker image
-sudo docker-compose build
+docker-compose build
 
