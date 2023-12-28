@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Build the Docker image
-sudo docker-compose build
+docker-compose build
 
