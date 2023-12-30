@@ -1,7 +1,7 @@
 version: 3
 services: 
-react-app:
-        container_name: guvi-reactjs
-        image: rehan008/capstone-dev
-        port:
-                - "80:80"
+  react-app:
+    container_name: guvi-reactjs
+    image: rehan008/capstone-dev
+    port:
+      - "80:80"

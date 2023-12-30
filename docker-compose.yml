@@ -1,11 +1,11 @@
 version: '3'
-seevices:
-        react-app:
-                build:
-                        context: .
-                        dockerfile: Dockerfile 
-                        container_name: guvi-reactjs-container
-                        image: reactjs_guvi:latest
-                        ports:
-                                - "3000:80"
-                     
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: guvi-reactjs-container
+    image: reactjs_guvi:latest
+    ports:
+      - "3000:80"
+   
