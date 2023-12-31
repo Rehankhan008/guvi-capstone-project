@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: guvi-reactjs-container
-    image: reactjs_guvi:latest
+    image: reactjs-guvi:latest
     ports:
       - "3000:80"
    
