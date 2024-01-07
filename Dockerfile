@@ -1,6 +1,6 @@
 #             node block
 # Use an official Node runtime as a parent image
-FROM node:16-alpine as demoapp
+FROM node:14 as demoapp
 
 # Set the working directory in the container
 WORKDIR /nodejs
@@ -9,11 +9,7 @@ WORKDIR /nodejs
 COPY package*.json ./
 
 # Install any needed packages specified in package.json
-RUN npm install -g npm@latest
 RUN npm install
-
-# Clear npm cache
-RUN npm cache clean --force
 
 # Copy the rest of the client's source code
 COPY . .
