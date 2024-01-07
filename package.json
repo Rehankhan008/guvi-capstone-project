@@ -14,11 +14,8 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
     "react-scripts": "^3.0.1"
-=======
-    "react-scripts": "^5.0.1"
->>>>>>> d3d6e92bc8f2ff51e8a6180c8fbbb0597944aa23
+
   },
   "scripts": {
     "start": "react-scripts start",
