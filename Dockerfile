@@ -9,11 +9,7 @@ WORKDIR /nodejs
 COPY package*.json ./
 
 # Install any needed packages specified in package.json
-RUN npm install -g npm@latest
 RUN npm install
-
-# Clear npm cache
-RUN npm cache clean --force
 
 # Copy the rest of the client's source code
 COPY . .
