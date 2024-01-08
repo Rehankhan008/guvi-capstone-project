@@ -1,6 +1,6 @@
 #             node block
 # Use an official Node runtime as a parent image
-FROM node:14 as demoapp
+FROM node:16-alpine as demoapp
 
 # Set the working directory in the container
 WORKDIR /nodejs
